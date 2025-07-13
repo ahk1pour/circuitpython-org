@@ -8,12 +8,12 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 4.2", ">= 4.2.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-seo-tag', '>= 2.8.0'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
   gem "jekyll-get-json", "~> 1"
@@ -25,4 +25,4 @@ group :development do
 end
 
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8", ">= 1.8.2"
